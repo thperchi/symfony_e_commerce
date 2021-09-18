@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CartController!{% endblock %}
+
+{% block body %}
+{% for p in cart %}
+    {{p.name}}
+{% endfor %}
+{% endblock %}
